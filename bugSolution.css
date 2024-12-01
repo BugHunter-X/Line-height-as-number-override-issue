@@ -1,0 +1,10 @@
+body {
+  font: 12pt/14pt sans-serif;
+}
+
+/* The fix involves setting the font-size as well */
+div {
+  font-size: 1.5rem; /* Essential for the line-height to work correctly */
+  line-height: 1.1rem;
+  font-family: serif;
+}
