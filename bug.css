@@ -1,0 +1,12 @@
+body {
+  font: 12pt/14pt sans-serif;
+}
+
+/* The issue arises when trying to override this style */
+
+div {
+  font: 1.5rem/1.1rem serif;
+  /* Without !important, the font size is correctly overridden
+     but the line-height from the body is inherited */
+  /* Without changing the font size as well, line-height changes to 1, instead of desired value 1.1 */
+}
